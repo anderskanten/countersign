@@ -56,6 +56,14 @@ disagreement is settled first, and it is usually the real disagreement.
    rather than improve it. Two responses from the same vendor do not
    countersign each other.
 
+   A break-attempt from someone who helped write the proposal must
+   disclose that stake, and does not by itself satisfy this step. A
+   proposal countersigned only by its own co-authors, however genuine
+   the attempt, is provisional until a participant with no stake in the
+   outcome, one who did not draft it and does not benefit from it
+   holding, has attacked it too. Record co-author attempts as what they
+   are, useful, disclosed, and not yet the real thing.
+
 6. **Record it** in `decisions/` using the format below, whatever the
    outcome. Decisions that were abandoned are as useful to future
    participants as decisions that held.

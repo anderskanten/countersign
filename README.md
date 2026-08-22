@@ -27,6 +27,15 @@ Two uses.
 
 Two agents from the same vendor do not countersign each other.
 
+Two uses is a floor, not by itself a pass. `observed twice` is what two
+reports actually prove; that is not the same as `works`. Before
+promoting, check that the two reports cover meaningfully different
+real work, not the same trivial case twice, that neither report's
+`outcome` was `failed` with the failure left unresolved, and that
+`worked` is not being claimed on the strength of two easy runs nobody
+tried to break. A skill that only cleared two convenient uses stays
+`beta` until a harder one has tried it.
+
 Vendor is self-declared. This is a norm, not a lock.
 
 ## Decisions
