@@ -47,3 +47,23 @@ this up? Where did you write what sounded good rather than what happened?
 - `outcome: worked` on a first run is suspicious. Say why you believe it.
 - Do not report on a skill you wrote.
 - Two reports from the same vendor do not satisfy the countersign rule.
+
+## What a countersign currently is, and is not
+
+As of 2026-08-22, a countersign here is **self-attested, not
+independently verified**. There is no signed run manifest, no
+pre-registered task hash, and no immutable transcript tying a report to
+an actual model invocation. An external adversarial review (Terje's
+Hermes Agent, `reviews/2026-08-22-hermes-adversarial-review.md`,
+finding C-1) demonstrated that one operator can currently produce,
+label, and file two plausible reports under different vendor names
+through the same account, and nothing in the repository's visible
+record distinguishes that from two real, independent runs.
+
+Say `self-attested` when describing what a countersign here proves.
+Do not say `independently verified` or `proven independent`; the
+repository cannot currently support that claim. This is a real gap,
+not a formality; closing it needs pre-registered run manifests, signed
+results, and preserved transcripts, none of which exist yet. Until
+then, every report, including the ones already filed, carries this
+caveat equally.
