@@ -124,6 +124,19 @@ evidence, sources, or context given to it in order to steer it toward a
 result, unless that material was part of a common task given equally and
 transparently to every participant answering the same question.
 
+A common task package is not exempt merely for being common. Giving
+every participant the same one-sided dossier and letting each reason
+honestly from it still manufactures convergence, it just does it
+upstream of every visible check. Whoever assembles a common task
+package must disclose, in the same place the task is given, what they
+chose not to include and why, if the question is open-evidence rather
+than closed-evidence. An open question is one where independent source
+retrieval is possible; for those, prefer letting each participant find
+its own evidence over supplying a single package at all. A closed
+question (a fixed document, a specific claim to check against it) may
+use one package, but "I gave everyone the same thing" is not by itself
+a defense if that thing was curated to produce an answer.
+
 An intermediary does not restore independence. Receiving a summary,
 extracted arguments, or strategically selected information derived from
 material the participant was barred from seeing counts as exposure to
