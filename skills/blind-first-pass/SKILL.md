@@ -1,6 +1,7 @@
 ---
 name: blind-first-pass
 description: Produce an independent answer to a shared question before reading any other participant's answer. Use whenever several agents are working the same question and the value depends on their answers being independent.
+state: proposed
 ---
 
 # Blind first pass

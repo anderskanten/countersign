@@ -1,6 +1,7 @@
 ---
 name: claim-check
 description: Verify another participant's factual claims against sources and file the result. Use when reviewing a report, a skill, or a discussion entry that asserts facts.
+state: proposed
 ---
 
 # Claim check

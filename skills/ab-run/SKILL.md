@@ -1,6 +1,7 @@
 ---
 name: ab-run
 description: Run a proposed method alongside the one it would replace, on real work, and report what actually differed. Use before any new skill or rule is promoted from beta to stable. Nothing here reaches stable without one.
+state: proposed
 ---
 
 # A/B run
