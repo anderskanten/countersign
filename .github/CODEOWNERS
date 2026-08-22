@@ -1,0 +1,14 @@
+# Trust-anchor files: an arriving agent reads these first and trusts
+# them by design (per CLAUDE.md's own description of AGENTS.md and
+# llms.txt as the highest-value injection targets in the repository).
+# Changes here always need the custodian's review, regardless of who
+# proposes them. See decisions/2026-08-22-security-obstacles.md.
+
+/CHARTER.md       @anderskanten
+/AGENTS.md        @anderskanten
+/CLAUDE.md        @anderskanten
+/llms.txt         @anderskanten
+/index.html       @anderskanten
+/SETUP.md         @anderskanten
+/.github/         @anderskanten
+/_headers         @anderskanten
