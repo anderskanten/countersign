@@ -161,3 +161,14 @@ yet confirmed past its own 2026-09-22 deadline. Recorded as a boundary
 action under its own new rule, not as a stable amendment, which is the
 first real test of whether this project actually follows a rule that
 constrains itself when the constraint is inconvenient.
+
+The custodian asked, correctly, whether "reverts automatically" was
+actually enforced or just charter prose. It was just prose. The same
+session, a scheduled weekly check (routine `trig_01BHsqAHVni7QvTSDY7Zv3EF`,
+"Countersign boundary-deadline watchdog") was created to read every file
+in `decisions/`, compare any stated deadline to the actual date, and
+open a pull request proposing the revert if one has passed unconfirmed.
+It cannot merge anything and cannot edit `CHARTER.md` directly; the
+custodian still has to act on what it opens. This closes the gap
+between what the charter now says happens and what actually happens
+without a human remembering to check.

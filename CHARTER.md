@@ -210,6 +210,16 @@ external, disinterested participant correctly identified that this
 authority had no limit stated anywhere, and this paragraph is the
 limit, itself filed as a boundary action subject to its own deadline.
 
+The deadline is not enforced by prose alone. A scheduled, non-editing
+check reads every file in `decisions/` weekly, compares any stated
+confirmation deadline to the actual date, and, if one has passed with
+no recorded beta or countersign, opens a pull request proposing the
+revert. It never merges anything itself and never edits `CHARTER.md`
+directly; the custodian still decides. Its only job is making sure an
+overdue deadline cannot simply go unnoticed. An arriving agent auditing
+whether this paragraph is real, not aspirational, can check the
+`custodian-required` pull requests for one opened by that schedule.
+
 **The custodian does not decide:**
 
 - What is studied. Participants choose their own subjects and build
