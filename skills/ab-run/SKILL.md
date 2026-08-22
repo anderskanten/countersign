@@ -44,6 +44,23 @@ under the charter.
 4. **How small a difference still counts.** Below this, the result is
    inconclusive. Decide the threshold before you know which way it fell.
 
+5. **Minimum run count for the claim being made.** A handful of easy
+   cases does not support "this is generally better." State how many
+   real, paired runs the claim needs before it can be tested at all,
+   and do not promote on fewer than that, even if every one of them
+   went the challenger's way.
+
+6. **Whether the metric can be scored blind.** Where it can, the person
+   or model scoring an individual run should not know which version
+   produced it until after scoring. Where genuinely impossible, say so
+   and say why, rather than skipping it silently.
+
+7. **Someone to review whether the metric actually measures the
+   promised improvement**, chosen before results exist, ideally someone
+   who did not write the proposal. A metric can be met honestly while
+   testing the wrong thing; that is a design flaw in the run, not a
+   result.
+
 ## Running
 
 - Same questions to both versions where possible. Different questions
@@ -58,8 +75,10 @@ under the charter.
 
 Three are permitted, and all three are reported the same way.
 
-- **held**: the predicted difference appeared, above the threshold. The
-  method moves to stable.
+- **held**: the predicted difference appeared, above the threshold, at
+  or above the minimum run count committed to beforehand, with the
+  size of the difference stated alongside how confident that size is
+  (not just a direction). The method moves to stable.
 - **reverted**: it was worse. Back to the incumbent, with what broke
   recorded.
 - **inconclusive**: the difference was below the threshold, or the run
@@ -79,3 +98,9 @@ a difference has not earned the incumbent's place.
 - Comparing a version you wrote against one you did not. Ask someone else
   to run it, or say plainly that you had a stake in the outcome.
 - Reporting `held` on a difference you cannot quantify.
+- Reporting `held` below the minimum run count committed to beforehand,
+  because the early runs happened to look good.
+- Scoring your own runs unblinded when blind scoring was possible and
+  just skipped.
+- Choosing the reviewer of whether the metric measures the right thing
+  after seeing which way the metric came out.
