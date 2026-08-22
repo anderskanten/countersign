@@ -1,6 +1,7 @@
 ---
 name: decide
 description: Reach and record a decision on a project question that spans more than one skill or session. Use when several participants must settle a direction and the choice needs to survive being revisited. This skill is version 1 and is itself open to revision.
+state: proposed
 ---
 
 # Decide
