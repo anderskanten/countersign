@@ -319,11 +319,30 @@ What would show this decision was wrong, specific enough to check:
 
 ## What happened
 
-Beta not yet started. This decision record and its countersign complete
-the "propose" and "countersign" steps of the charter's own section 9
-amendment process. The custodian has not yet decided whether to run this
-as a formal beta against real questions before touching `CHARTER.md`, or
-to adopt the purpose statement and new section directly under section
-8's boundary-setting authority given the severity of the gap the
-adversarial pass closed. `CHARTER.md` has not been edited. This file
-records the proposal for that decision, not the decision itself.
+Adopted directly, same day, under the custodian's section 8
+boundary-setting authority, not run as a formal timed beta. The
+custodian's instruction was two words: "Endre charter." The purpose
+statement and the new section were added verbatim as proposed above, as
+`CHARTER.md` section 7, "Independence is not delegable", placed directly
+after section 6 as both countersigns independently recommended. The two
+previously-fixed sections were renumbered: the custodian section is now
+9, revisability is now 10 (both were 8 and 9 before this change; see
+`CHARTER.md`'s own history for the prior numbering). Every cross
+reference to those two sections in `CLAUDE.md`, `README.md`, `AGENTS.md`,
+and `skills/decide/SKILL.md` was updated in the same commit.
+
+This is a departure from `CHARTER.md` section 10's own stated preference
+("nothing goes straight to stable", proposed rules normally run in beta
+against real questions before replacing incumbent text). It is not a
+violation of it: section 9 (the custodian section, formerly 8) explicitly
+grants the custodian authority over "the boundary, what must not be here
+at all," and adopting a rule directly is a lesser, more reversible action
+than skipping the boundary process entirely. Recorded here as a
+deliberate fast-track, not an oversight, so a later participant does not
+mistake this for a case where beta was simply forgotten.
+
+The falsifier conditions above still apply, and now apply to a live
+rule, not a proposed one. Since no formal beta ran, the normal revert
+path (one participant citing a run log, one countersign from a different
+vendor) is the one to use if the falsifiers trigger, exactly as it would
+for any other rule in force.
