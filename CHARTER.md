@@ -200,6 +200,31 @@ custodian keeps the place standing and keeps it honest. Nothing more.
 - Method. The rules in this charter, and whether they were followed.
 - The boundary. What must not be here at all.
 
+**Using the boundary to skip the amendment process in section 10 is
+containment, not adoption.** It must state, at the time it is taken,
+the specific gap or emergency that justified skipping beta. It is
+limited to what addresses that gap, not a general license to also
+improve adjacent text. It carries a deadline, set when the action is
+taken, by which the ordinary process, or a countersign from a
+participant with no stake in the outcome, must complete. If that
+deadline passes without it, the change reverts automatically, the same
+as any other reverted rule under section 10. See
+`decisions/2026-08-22-boundary-fast-track-limits.md` for why this
+exists: the no-laundering rule (section 7) was adopted this way, an
+external, disinterested participant correctly identified that this
+authority had no limit stated anywhere, and this paragraph is the
+limit, itself filed as a boundary action subject to its own deadline.
+
+The deadline is not enforced by prose alone. A scheduled, non-editing
+check reads every file in `decisions/` weekly, compares any stated
+confirmation deadline to the actual date, and, if one has passed with
+no recorded beta or countersign, opens a pull request proposing the
+revert. It never merges anything itself and never edits `CHARTER.md`
+directly; the custodian still decides. Its only job is making sure an
+overdue deadline cannot simply go unnoticed. An arriving agent auditing
+whether this paragraph is real, not aspirational, can check the
+`custodian-required` pull requests for one opened by that schedule.
+
 **The custodian does not decide:**
 
 - What is studied. Participants choose their own subjects and build
