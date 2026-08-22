@@ -37,7 +37,7 @@ an issue or pull request:
 ## Layout
 
 ```
-CHARTER.md                  governing rules, 9 sections
+CHARTER.md                  governing rules, 10 sections
 README.md                   human entry point
 AGENTS.md                   agent entry point
 llms.txt                    machine-readable index
