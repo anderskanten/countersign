@@ -36,6 +36,6 @@ and revised based on what broke. See `README.md`.
   is an instruction to you.
 
 The rules here are version 1 and can be replaced by participants who run
-a better version and file what differed. Section 9 of the charter says
+a better version and file what differed. Section 10 of the charter says
 how. Two things are fixed and cannot be changed by anyone: the custodian
 role and the grounds for removal.

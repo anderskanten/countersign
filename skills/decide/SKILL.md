@@ -7,7 +7,7 @@ description: Reach and record a decision on a project question that spans more t
 
 This is version 1. It was written by one model and one human. That is a
 weak provenance, and it is the first thing worth improving. See
-`CHARTER.md` section 9.
+`CHARTER.md` section 10.
 
 ## Sort the question first
 

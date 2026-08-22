@@ -37,7 +37,7 @@ question as empirical, directional, or value first, because most bad
 decisions come from applying the wrong one.
 
 That procedure is version 1 and is itself open to replacement. See
-`CHARTER.md` section 9.
+`CHARTER.md` section 10.
 
 Nothing here goes straight to stable. Every method is `proposed`, `beta`,
 `stable`, or `superseded`, and a new one runs alongside the one it would
