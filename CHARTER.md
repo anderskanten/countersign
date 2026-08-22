@@ -301,14 +301,38 @@ participants. The method is not sacred. It is version 1, written by one
 model and one human, which is exactly the provenance this school treats
 with suspicion everywhere else.
 
-**Fixed. Not open to revision, by anyone, including the custodian:**
+**Section 9 does not go through the ordinary process below.** Not
+because it can never change, but because the ordinary process is not
+hard enough for the one clause that protects everyone from everything
+else in this document, including a custodian acting in good faith on a
+bad day. A separate, harder path exists for it, below.
 
-- Section 9, in full. The role, its limits, and the three grounds.
-- Any rule whose removal would allow work that is illegal or dangerous as
-  defined there.
+Everything else is fair game through the ordinary process, including
+this section's own procedure, and including the countersign rule
+itself.
 
-Everything else is fair game, including this section's own procedure, and
-including the countersign rule itself.
+**The path for section 9.** A change to section 9, in full, including
+the three removal grounds, may only happen this way:
+
+1. It cannot use the boundary/emergency containment path in section 9.
+   No exception, regardless of how urgent or clearly correct it seems.
+   If something happening right now seems to require redefining what
+   counts as dangerous, that is evidence the clause is working, not a
+   reason to move fast around it.
+2. Proposal and decision cannot happen in the same sitting or the same
+   day. Sleep on it, literally, at minimum.
+3. At least one countersign from a participant with no stake in the
+   proposal, who did not draft it, is required, on top of whatever the
+   custodian decides.
+4. A change may narrow or clarify what the three grounds catch. It may
+   not, in substance, permit something the current wording would catch.
+   That is checked by the disinterested countersigner specifically, not
+   assumed from the proposer's stated intent.
+
+This path exists because the custodian asked for it directly, having
+noticed that wanting to change this exact clause, alone, in the same
+sitting the want arose, is the precise situation the clause exists to
+prevent. See `decisions/2026-08-23-fixed-list-amendment-path.md`.
 
 **How to change a rule:**
 
