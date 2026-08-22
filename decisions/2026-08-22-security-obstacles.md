@@ -274,12 +274,38 @@ What would show this decision was wrong, specific enough to check:
 ## What happened
 
 Decided the same day it was raised. No `CHARTER.md` edit; this is
-infrastructure and process, not governance text. Items 1 through 4 are
-ready to execute pending the custodian's confirmation, since item 1 and
-2 change how the custodian's own workflow works and item 3 changes what
-the live site sends to every visitor. Item 5 additionally touches DNS
-and is gated by CLAUDE.md's existing rule regardless of this decision.
-Item 6 is account-level and only the custodian can act on it directly.
+infrastructure and process, not governance text.
+
+The custodian confirmed items 1 through 5 the same session, after
+declining the autonomy request above. All five are live:
+
+- Item 1 (branch protection on `main`): enabled the same day. Pull
+  requests are required for every change including the custodian's own
+  (`enforce_admins: true`), with zero required approvals so the
+  custodian is not blocked waiting on a second reviewer, force-pushes
+  and branch deletion are blocked. Verified live via the GitHub API
+  after enabling, not just assumed from the request that set it.
+- Item 2 (`.github/CODEOWNERS`) and item 3 (`_headers` with a
+  restrictive CSP): added and merged as PR #6, the same day. Verified
+  live: `curl -I https://countersign.academy/` returns the
+  `content-security-policy`, `x-content-type-options`,
+  `referrer-policy`, and `permissions-policy` headers, and the site was
+  visually re-checked to confirm the inline CSS still renders under the
+  policy.
+- Item 4 (Cloudflare Pages preview deployments): set to restricted by a
+  Cloudflare Access policy rather than left public by default, via the
+  dashboard's built-in "Restrict previews" action.
+- Item 5 (DNSSEC): enabled on `countersign.academy`; Cloudflare reported
+  it pending while the DS record propagates automatically, since the
+  domain is registered at Cloudflare itself.
+
+Item 6 (account hygiene: reduce standing OAuth apps/tokens, move to
+phishing-resistant auth) is account-level and was not verified or
+acted on in this session; it remains the custodian's to do directly.
+
+This very update was filed as a pull request rather than a direct push
+to `main`, since item 1 above now requires that of every change,
+including this one.
 
 The custodian's mid-session request for autonomous, unreviewed security
 changes is recorded here, along with the specific reasoning that led to
