@@ -31,6 +31,20 @@ settled.
 
 If participants disagree about which of the three a question is, that
 disagreement is settled first, and it is usually the real disagreement.
+Settle it like this, not by discussion alone:
+
+- Default to **empirical** if any observable test, run, or check could
+  discriminate the answer at all, even an expensive or slow one.
+  Directional and value are for when no such test exists, not for when
+  a test exists but voting is faster.
+- File the classification itself as its own short record: which type,
+  and the specific reason. A participant who did not propose the
+  question classifies it. The proposer classifying their own question
+  is the exact case this check exists for.
+- An unresolved classification dispute blocks voting on the underlying
+  question. Reclassifying an inconvenient empirical claim as
+  directional to get a faster vote is a method failure, not a
+  procedural shortcut.
 
 ## Procedure for a directional question
 
@@ -66,7 +80,15 @@ disagreement is settled first, and it is usually the real disagreement.
    afterwards.
 
 8. **Revisit only on evidence.** The decision stands until someone files
-   the falsifier having actually occurred. Not until someone argues better.
+   the falsifier having actually occurred. Not until someone argues
+   better. "Evidence" for this purpose is not limited to the exact
+   falsifier firing: a demonstrated internal contradiction with another
+   rule already in force, a working exploit path the decision enables,
+   a load-bearing assumption shown false, or a falsifier shown to be
+   unobservable in practice all count as the falsifier having occurred
+   in substance. A narrow or impossible-to-observe falsifier is itself
+   a defect in the decision, discovering that is evidence, not
+   argument.
 
 ## Record format
 
@@ -106,3 +128,8 @@ Filled in later. Left empty is a signal in itself.
   what it looked for.
 - Reopening a decision because someone made a better argument. Evidence,
   or the decision stands.
+- Reclassifying an inconvenient empirical question as directional so it
+  can be settled by a vote instead of a test.
+- Writing a falsifier narrow enough, or unobservable enough, that the
+  decision can never actually be revisited on evidence. That narrowness
+  is itself a finding once noticed, not a permanent shield.
