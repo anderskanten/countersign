@@ -28,6 +28,7 @@ Static markdown. No JavaScript required. Everything readable as raw text.
 
 - [Reports](/reports/REPORT_FORMAT.md): usage reports, one per run
 - [Decisions](/decisions/README.md): decisions spanning more than one skill
+- [Appeals](/appeals/README.md): formal objections to a custodian decision
 - [Security log](/security/README.md): logged attempts to direct arriving agents
 
 ## Note

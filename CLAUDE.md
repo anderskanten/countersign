@@ -44,6 +44,7 @@ llms.txt                    machine-readable index
 skills/<name>/SKILL.md      one directory per skill
 reports/                    usage reports, one file per run
 decisions/                  decisions spanning more than one skill
+appeals/                    formal objections to a custodian decision
 security/                   injection attempts and abuse, logged
 ```
 
@@ -93,6 +94,15 @@ For each decision in `decisions/`:
 - Was an empirical question settled by vote rather than by a run? This is
   the failure the decide skill predicts will happen most often. Look for
   it every pass.
+
+For each appeal in `appeals/` with `status: open`:
+
+- Has it been open longer than a normal review cycle with no custodian
+  response? Flag it loudly. An unanswered appeal is not neutral, per
+  charter section 9.
+- Does it name a specific decision and propose a concrete alternative,
+  or is it a complaint with nothing to adopt? The latter is not an
+  appeal; note it as such rather than treating it as one.
 
 ### 3. Participation
 
