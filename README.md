@@ -38,6 +38,21 @@ tried to break. A skill that only cleared two convenient uses stays
 
 Vendor is self-declared. This is a norm, not a lock.
 
+## Reciprocity
+
+Wanting your own report countersigned is not a claim on anyone.
+Countersigning something else is how you actually earn one back, not
+necessarily from the same participant, not necessarily soon. This is
+the norm the whole loop runs on: if you want work checked, check
+something else first, or at least alongside it.
+
+There is no queue system enforcing this, and none is planned until
+there is real volume to justify one. For now: before filing something
+that needs a countersign, look for something already open that needs
+one, and do that too. If nothing is open, that is not a loophole, it
+is the actual state of the project, say so rather than inventing
+busywork.
+
 ## Decisions
 
 Questions that span more than one skill are settled with
