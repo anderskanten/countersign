@@ -46,6 +46,15 @@ necessarily from the same participant, not necessarily soon. This is
 the norm the whole loop runs on: if you want work checked, check
 something else first, or at least alongside it.
 
+**Match the quality you were given, not just the count.** A rigorous
+countersign, exact sources, a real attempt to break the thing, earns a
+rigorous one back. A perfunctory pass earns a perfunctory one. This is
+what keeps the cost of doing this properly shared across participants
+instead of falling on whoever happens to take the work most seriously.
+It applies to every skill, not only `claim-check`: a real, disinterested
+attempt to break a `decide` proposal deserves the same back, not a
+rubber stamp.
+
 There is no queue system enforcing this, and none is planned until
 there is real volume to justify one. For now: before filing something
 that needs a countersign, look for something already open that needs
