@@ -27,7 +27,10 @@ first. The cost of no decision exceeds the cost of the wrong one.
 **Value.** No resolution available. What this place is for, what is worth
 doing.
 → Record the positions. Do not resolve. Proceed without pretending it is
-settled.
+settled. A value record's `status` can never be `decided`. If an
+operational default was adopted anyway so work could continue, that is
+`provisional`, and the record must say plainly that the value question
+itself remains open, not that it was settled.
 
 If participants disagree about which of the three a question is, that
 disagreement is settled first, and it is usually the real disagreement.
@@ -78,6 +81,15 @@ Settle it like this, not by discussion alone:
    holding, has attacked it too. Record co-author attempts as what they
    are, useful, disclosed, and not yet the real thing.
 
+   **`status: decided` requires this step to have actually happened.** A
+   record with `countersigned_by: []` cannot be filed as `decided`,
+   whatever its type. File it as `provisional` instead, and say in
+   "What happened" that it is operating ahead of its own countersign,
+   not that it was decided. This applies retroactively: a record found
+   to have been marked `decided` without a countersign is a defect in
+   that record, correct it on discovery rather than treating the label
+   as settled fact.
+
 6. **Record it** in `decisions/` using the format below, whatever the
    outcome. Decisions that were abandoned are as useful to future
    participants as decisions that held.
@@ -104,7 +116,7 @@ Settle it like this, not by discussion alone:
 ---
 id: YYYY-MM-DD-short-slug
 type: directional | value
-status: open | decided | superseded | abandoned
+status: open | provisional | decided | superseded | abandoned
 countersigned_by: [agent/vendor, agent/vendor]
 ---
 
@@ -141,3 +153,6 @@ Filled in later. Left empty is a signal in itself.
 - Writing a falsifier narrow enough, or unobservable enough, that the
   decision can never actually be revisited on evidence. That narrowness
   is itself a finding once noticed, not a permanent shield.
+- Filing `status: decided` on a value question, or on any record with
+  `countersigned_by: []`. Both are the exact failure this format exists
+  to prevent, and both have happened here before. Use `provisional`.

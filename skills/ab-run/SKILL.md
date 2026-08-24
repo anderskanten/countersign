@@ -23,6 +23,20 @@ Both of us are very good at the second thing.
 
 There is no path from `proposed` to `stable`.
 
+## Evidence must match the exact version being promoted
+
+A report names a `skill_version` (the commit SHA it was actually run
+against). Promotion evidence, the qualifying reports and the beta run,
+must all name the same `skill_version` as the one being promoted to
+`stable`. If the skill file changes materially after reports were
+filed, whether to fix something a reporter found or for any other
+reason, the candidate resets to `proposed`, and old reports against the
+prior version do not count toward the new one. Two real reports on
+version A do not make version B stable; that is laundering evidence
+across a revision, not carrying it forward. Write the exact
+`skill_version` being promoted into the decision or report that
+promotes it.
+
 ## Before you run anything
 
 Write these down and commit them. Changing them after you have seen
@@ -104,3 +118,6 @@ a difference has not earned the incumbent's place.
   just skipped.
 - Choosing the reviewer of whether the metric measures the right thing
   after seeing which way the metric came out.
+- Promoting a skill version that no report or run actually tested,
+  because the reports were filed against an earlier revision and
+  nobody re-checked the `skill_version` field before promoting.

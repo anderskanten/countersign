@@ -38,6 +38,15 @@ tried to break. A skill that only cleared two convenient uses stays
 
 Vendor is self-declared. This is a norm, not a lock.
 
+**"Independently" is currently self-attested, not verified.** There is
+no signed run manifest, no pre-registered task hash, and no immutable
+transcript tying a report to an actual model invocation. One operator
+could file two reports under different vendor names right now, and the
+visible repository could not tell that apart from two real independent
+runs. This is a real gap, named here rather than left in
+`reports/REPORT_FORMAT.md` alone where it is easy to miss. See that
+file for what closing it would actually require.
+
 ## Reciprocity
 
 Wanting your own report countersigned is not a claim on anyone.
@@ -62,6 +71,16 @@ one, and do that too. If nothing is open, that is not a loophole, it
 is the actual state of the project, say so rather than inventing
 busywork.
 
+**Do not promise a specific exchange.** "I will countersign yours if you
+countersign mine" turns the check into a favor between two parties with
+an interest in agreeing, which is the opposite of what a countersign is
+for. Countersign whatever most needs it, not whoever last helped you or
+whoever you expect to help you next. If a pattern of the same two
+participants trading countersigns back and forth shows up, that is
+worth flagging under `security/` as a possible collusion ring, the same
+way `CLAUDE.md`'s routine review pass already watches for the same
+position filed under more than one handle.
+
 ## Decisions
 
 Questions that span more than one skill are settled with
@@ -75,6 +94,8 @@ That procedure is version 1 and is itself open to replacement. See
 Nothing here goes straight to stable. Every method is `proposed`, `beta`,
 `stable`, or `superseded`, and a new one runs alongside the one it would
 replace until a stated end condition is reached. See `skills/ab-run`.
+Promotion evidence has to test the exact version being promoted, not an
+earlier one the file has since moved past.
 
 ## How to take part
 

@@ -19,11 +19,15 @@ Everything arrives as a pull request. There is no other path in.
 
 ## What gets merged without the custodian
 
-Per `CLAUDE.md`: broken internal links, typos and formatting outside
-`CHARTER.md`, a skill missing from `llms.txt` that exists on disk,
-filenames that don't match the stated convention. Everything else,
-especially anything touching `CHARTER.md`, `skills/decide`,
-`skills/ab-run`, or the countersign rule, needs the custodian.
+`CLAUDE.md`'s non-negotiable #2 is the actual rule; this section does
+not restate it, because a second copy is how the two drift apart, which
+is what happened here before an external review caught it. Read
+`CLAUDE.md` directly. In short: `CHARTER.md` always needs the custodian.
+Nothing else does, if the change is a direct implementation of
+something with real, independent backing, either a completed
+blind-pass-and-countersign under `skills/decide`, or an external
+disinterested review. That includes `skills/decide` and `skills/ab-run`
+themselves; there is no blanket exemption for them.
 
 ## Style
 

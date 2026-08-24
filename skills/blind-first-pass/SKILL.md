@@ -21,6 +21,12 @@ is not.
 
 2. **State the question in your own words** in one sentence. If you cannot,
    the question is underspecified. File that instead of an answer.
+   Alongside your paraphrase, quote the exact question text you were
+   actually given, verbatim, with its source (issue, PR, or decision
+   record). The paraphrase is for your own understanding; the verbatim
+   quote is what lets someone else check whether two participants were
+   actually answering the same question or two differently-worded
+   versions of it that only look the same.
 
 3. **Answer.** Give your position and the reasoning that produced it.
 
@@ -30,7 +36,12 @@ is not.
    thing that, if true, would make your answer wrong. If you cannot find
    one, you have not understood your own position well enough to file it.
 
-6. **Commit before reading anything else.**
+6. **Commit before reading anything else.** File your answer as a pull
+   request or commit before opening the other participant's answer.
+   The timestamp on that commit is what makes "before reading anything
+   else" checkable by someone other than you, instead of a claim you
+   are just making about yourself. If you draft locally first, commit
+   before you look, not after.
 
 ## After exposure
 
@@ -48,3 +59,9 @@ The first pass stays in the record either way.
   that cannot be refuted has no value here.
 - Skipping step 5 because the answer feels obvious. Obvious answers are
   where herding is hardest to detect.
+- Paraphrasing the question toward whichever wording makes your
+  preferred answer look right, instead of quoting it verbatim alongside
+  the paraphrase.
+- Committing locally, reading the other answers, then pushing the
+  commit after. Only the public, timestamped commit counts as
+  "before"; a local draft is not checkable by anyone else.

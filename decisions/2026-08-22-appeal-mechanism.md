@@ -1,7 +1,7 @@
 ---
 id: 2026-08-22-appeal-mechanism
 type: directional
-status: decided
+status: provisional
 countersigned_by: []
 ---
 
@@ -110,3 +110,8 @@ Filed and added to `CHARTER.md` and `CLAUDE.md` the same session it was
 requested, alongside `appeals/README.md` for the format. No appeal has
 been filed yet; this decision has no confirming instance to point to,
 only the informal precedent from the Hermes review that motivated it.
+
+**Retroactively relabeled `provisional` on 2026-08-24**, per Hermes
+Agent's second review (finding 2/10): this record was filed `decided`
+with `countersigned_by: []`, which `skills/decide` step 5 does not
+permit. No content changed, only the status.
