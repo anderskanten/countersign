@@ -2,7 +2,7 @@
 id: 2026-08-24-appeal-deadline-and-succession-gap
 type: directional
 status: open
-countersigned_by: []
+countersigned_by: [ChatGPT / OpenAI, disinterested, no stake in the proposal]
 ---
 
 ## Question
@@ -37,6 +37,18 @@ is short enough that "the custodian went quiet" becomes checkable
 within two weeks rather than indefinitely, while long enough that a
 genuinely difficult appeal is not forced into a rushed answer.
 
+**ChatGPT / OpenAI, countersign attempt, filed 2026-08-24 without
+reading the position above first.** Disclosed no stake in the proposal.
+Agreed 14 days is defensible (7 too easy to miss, 30 too sluggish), but
+broke the proposed deadline text: it names a deadline with no
+procedural consequence beyond being "a fact worth noticing", which is
+too soft for a rule with a hard number. Also broke the succession
+sentence as under-specified narrative rather than an operational
+statement. Proposed sharper wording for both, and an explicit warning
+against the failure mode of adopting a deadline nobody actually
+tracks as overdue ("ceremonial precision"). Verdict: not countersigned
+as originally worded; countersigned with the specific rewording below.
+
 ## Alternatives considered and rejected
 
 **No fixed number, keep "reasonable time."** This is the status quo
@@ -50,27 +62,34 @@ countersign could reasonably argue for it instead of 14.
 
 ## Decision
 
-Not yet decided. This record exists to hold the proposal, the blind
-position, and the falsifier while it goes through section 9's own
-amendment path: no same-sitting or same-day merge, and at least one
-countersign from a participant with no stake in the outcome, before
-this is applied to `CHARTER.md`.
+Not yet applied to `CHARTER.md`. The disinterested countersign has now
+happened (ChatGPT, above), but the proposal was filed and countersigned
+on the same calendar date, 2026-08-24. Section 9's own path requires
+the proposal and the decision not to happen "in the same sitting or the
+same day", so this still waits for a day boundary to pass before the
+custodian merges it, regardless of the countersign already being in
+hand.
+
+The text below is the countersigned version, incorporating ChatGPT's
+break-attempt rather than the original wording: an observable overdue
+state instead of a soft "worth noticing", an explicit statement that
+silence resolves nothing, and a tighter succession sentence with the
+narrative trimmed.
 
 Proposed text change to section 9, "Appealing a custodian decision":
 
-> The custodian must respond in the same file **within 14 days of
-> filing**: accept it, reject it with reasons, or adopt part of it. An
-> appeal that gets no response within that window is not resolved by
-> silence, it stays open and overdue, and an unanswered appeal past its
-> deadline is itself a fact worth an arriving agent noticing.
+> The custodian must respond in the same file within 14 calendar days
+> of filing: accept it, reject it with reasons, or adopt part of it. An
+> appeal that receives no response within that window remains
+> unresolved and must be visibly marked overdue until a response is
+> filed. Silence does not constitute rejection, acceptance, or closure.
 
 Proposed new line, placed near the end of section 9, before the
 appealing-a-decision paragraph:
 
 > **Succession is not defined.** If the custodian becomes unreachable,
-> this charter does not yet say what happens to the school. That is a
-> real gap in a one-person project, named here rather than left
-> implicit or discovered by someone testing it.
+> this charter does not currently specify who assumes the custodian
+> role or how that transition occurs.
 
 ## Falsifier
 
@@ -86,6 +105,15 @@ appealing-a-decision paragraph:
 
 ## What happened
 
-Filed 2026-08-24, the same day it was proposed, status `open`. Waiting
-on a disinterested countersign and at least one day before this can be
-applied to `CHARTER.md`, per section 9's own amendment path.
+Filed 2026-08-24. Disinterested countersign obtained the same day from
+ChatGPT (OpenAI), given the proposal blind, with no prior context on
+this specific record. The countersign broke the original wording on a
+real gap (no procedural consequence for a missed deadline) and the
+rewording above was adopted in response, which is what a real
+break-attempt is supposed to produce, not just a pass or fail.
+
+Status stays `open`, not `decided`, because the proposal and the
+countersign happened on the same calendar date. Applying this to
+`CHARTER.md` waits for the next day at the earliest. This record will
+be updated to `decided` only when the custodian actually merges the
+`CHARTER.md` change, on a later date, per the falsifier below.
