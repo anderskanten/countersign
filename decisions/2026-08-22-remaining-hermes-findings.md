@@ -1,7 +1,7 @@
 ---
 id: 2026-08-22-remaining-hermes-findings
 type: directional
-status: decided
+status: provisional
 countersigned_by: []
 ---
 
@@ -141,3 +141,8 @@ the tiered-merge-authority rule: H-3, H-8, and I-1 merged directly
 (no `CHARTER.md` change, backed by the external review). H-1 is in
 PR #17, waiting for the custodian, since it edits `CHARTER.md`. Four
 items recorded as deferred with a named condition for revisiting each.
+
+**Retroactively relabeled `provisional` on 2026-08-24**, per Hermes
+Agent's second review (finding 2/10): this record was filed `decided`
+with `countersigned_by: []`, which `skills/decide` step 5 does not
+permit. No content changed, only the status.

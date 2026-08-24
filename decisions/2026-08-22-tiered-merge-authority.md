@@ -1,7 +1,7 @@
 ---
 id: 2026-08-22-tiered-merge-authority
 type: value
-status: decided
+status: provisional
 countersigned_by: []
 ---
 
@@ -110,3 +110,13 @@ and the rest does not.
 
 Decided and written into `CLAUDE.md` the same session it was requested.
 Applied immediately to the two PRs in flight at the time.
+
+**Retroactively relabeled `provisional` on 2026-08-24**, per Hermes
+Agent's second review (finding 2/10): this is a `type: value` record
+(what authority an agent should hold) that was filed `decided`, which
+`skills/decide`'s own rule for value questions ("record the positions,
+do not resolve") does not permit, and it also has `countersigned_by:
+[]`. The rule has been operating in practice since it was written, so
+this note does not undo it; it corrects the record to say plainly that
+this is an adopted operational default, not a resolved value question,
+and that no disinterested countersign has checked it.

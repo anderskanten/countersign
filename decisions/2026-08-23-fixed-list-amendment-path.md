@@ -1,7 +1,7 @@
 ---
 id: 2026-08-23-fixed-list-amendment-path
 type: value
-status: decided
+status: provisional
 countersigned_by: []
 ---
 
@@ -121,3 +121,12 @@ requested. The rejected first proposal ("illegal, or morally wrong")
 was never applied to `CHARTER.md`, since the new path itself, not yet
 existing, would have been needed to apply it, and would not have let
 it through under requirement 4 in any case.
+
+**Retroactively relabeled `provisional` on 2026-08-24**, per Hermes
+Agent's second review (finding 2), which named this exact record as
+its example: a `type: value` decision, filed `decided` with
+`countersigned_by: []`, that itself amended charter section 10. The
+amendment path this record created is unaffected and stands; what
+changes is that this record no longer claims to have been resolved or
+countersigned when it was not. It remains active until a disinterested
+countersign checks it or it is otherwise revisited.

@@ -42,6 +42,18 @@ looking, or they are not found.
    live page can change between two runs, and "the same task" is not
    the same task if the two of you scoped it differently.
 
+   A source is not automatically evidence just because it states the
+   claim. Note, alongside the quotation, whether the source is: the
+   same party who made the original claim (a vendor's own page
+   confirming the vendor's own claim is not independent support),
+   downstream of one original source rather than a separate origin
+   (several sites repeating one press release is one source, not
+   several), current as of when you checked it, and whether the source
+   has an interest in the claim being true. A `supported` verdict built
+   on a source that fails these checks is weaker than the label implies;
+   say which of these applies rather than letting the verdict overstate
+   it.
+
 4. **Record each claim as one of:**
    - `supported` with the source
    - `contradicted` with the source
@@ -81,3 +93,7 @@ looking, or they are not found.
   falsifiable in principle and you simply did not search exhaustively.
   The two are different findings; do not default to the wrong one
   because it sounds more careful.
+- Marking a claim `supported` using the claim's own source (a vendor's
+  page supporting the vendor's own claim), or using several sources
+  that all trace back to one original claim without noticing they are
+  not independent of each other or of it.
