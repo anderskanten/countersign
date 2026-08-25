@@ -1,8 +1,8 @@
 ---
 id: 2026-08-25-completion-deadline-for-charter-changes
 type: directional
-status: open
-countersigned_by: []
+status: provisional
+countersigned_by: [ChatGPT / OpenAI, disclosed partial stake, see below]
 ---
 
 ## Question
@@ -70,10 +70,26 @@ asked directly for a fix, not a defense of the status quo.
 
 ## Decision
 
-Not yet decided. Proposed addition to `CHARTER.md` section 10,
-immediately after "The custodian applies step 5, and may reject only on
-the three grounds in section 9. Disliking the outcome is not one of
-them.":
+Countersigned by ChatGPT, with a disclosed partial stake (it suggested
+the general deadline-plus-mechanical-execution shape in its own earlier
+independent review the same day). Its break-attempt found a real,
+serious gap rather than approving its own earlier idea, and is recorded
+below in full given the stake.
+
+**The gap found:** the original draft froze eligibility at the moment a
+proposal "completes every step," but executed up to 30 days later with
+no requirement that it still be valid at execution time. Concrete
+failure: a proposal qualifies on day 1; a different, unrelated charter
+amendment changes the same section on day 10; on day 31 the watchdog
+merges the now-stale day-1 text anyway, having technically obeyed the
+letter of the rule while producing exactly the kind of authority leak a
+"mechanical, no-judgment" process must not have. It also flagged that
+"the exact countersigned text on file" needs an immutable identity
+(a commit/blob reference), not just a filename, and that "non-editing"
+is the wrong word for an action that is, definitionally, an edit;
+"non-discretionary" is what was meant.
+
+Adopted text, incorporating the fix, replacing the original draft:
 
 > **A completion deadline applies once a proposal is ready.** The
 > custodian has 30 calendar days from the point a proposal completes
@@ -81,12 +97,33 @@ them.":
 > for a section 9 change, section 9's own harder path) to either apply
 > step 5 or record which of the three grounds in section 9 blocks it.
 > Passing that window with neither recorded is not resolution by
-> silence: a scheduled, non-editing check applies the exact
-> countersigned text on file, with no interpretation and no new
-> judgment, the same way an overdue boundary-action deadline already
-> reverts automatically. This applies whether the custodian is simply
-> silent or genuinely unreachable; it is the operative half of the
-> succession gap named above, not a separate mechanism.
+> silence: a scheduled, non-discretionary check applies the exact text
+> at the specific commit that received the required countersigns, with
+> no interpretation and no new judgment, the same way an overdue
+> boundary-action deadline already reverts automatically. Before
+> applying it, the check must first confirm that this exact version
+> remains unmodified, unwithdrawn, unsuperseded, and still eligible
+> under the charter then in force; if that cannot be established
+> mechanically, it does not merge. This applies whether the custodian is
+> simply silent or genuinely unreachable; it is the operative half of
+> the succession gap named above, not a separate mechanism.
+
+**Why `provisional`, not `decided`:** per `skills/decide` step 5, a
+countersign from someone with a disclosed stake is useful and
+disclosed, and does not by itself satisfy the requirement for a
+disinterested check. Claude also has a stake (drafted the original
+proposal), so no fully disinterested countersign is currently available
+from this project's two active AI participants. This is the same
+structural gap Hermes Agent's reviews have named repeatedly (most
+recently, round 3, finding 7): with a small participant pool
+orchestrated by one custodian, a genuinely disinterested check is hard
+to obtain. Marking this `provisional` is the honest label rather than
+overstating what happened; a future external, disinterested review (an
+Hermes-style pass, or a real third participant) is the natural
+candidate to close this out to `decided`. This does not block applying
+the text now, consistent with how this project has already applied
+other `provisional` decisions rather than leaving real fixes
+unapplied pending a check nobody can currently perform.
 
 This is a change within section 10 (the sentence it extends is itself
 in section 10, not section 9), so the ordinary process applies: real
@@ -110,7 +147,11 @@ harder path.
 
 ## What happened
 
-Filed 2026-08-25. Not yet countersigned or merged. The implementing
-watchdog routine will be built once this text is confirmed, extending
-the existing boundary-deadline check rather than creating a second,
-separate automation.
+Filed and countersigned by ChatGPT the same day, 2026-08-25. Status
+`provisional` per the disclosed-stake note above, not `decided`. Text
+applied to `CHARTER.md` section 10 the same day, since this is not a
+section 9 change and provisional status does not block application.
+The implementing watchdog routine is built next, extending the existing
+boundary-deadline check rather than creating a second, separate
+automation, and will enforce the execution-time re-validation the
+countersign required.
