@@ -1,7 +1,7 @@
 ---
 id: 2026-08-24-appeal-deadline-and-succession-gap
 type: directional
-status: open
+status: decided
 countersigned_by: [ChatGPT / OpenAI, disinterested, no stake in the proposal]
 ---
 
@@ -112,8 +112,10 @@ real gap (no procedural consequence for a missed deadline) and the
 rewording above was adopted in response, which is what a real
 break-attempt is supposed to produce, not just a pass or fail.
 
-Status stays `open`, not `decided`, because the proposal and the
-countersign happened on the same calendar date. Applying this to
-`CHARTER.md` waits for the next day at the earliest. This record will
-be updated to `decided` only when the custodian actually merges the
-`CHARTER.md` change, on a later date, per the falsifier below.
+Status stayed `open`, not `decided`, while the proposal and the
+countersign shared a calendar date. On 2026-08-25, the next day, the
+custodian directed the merge and both sentences were applied to
+`CHARTER.md` section 9 exactly as countersigned. No same-day decision,
+one disinterested countersign, only narrowing/clarifying prose, no
+change to the custodian role or the three removal grounds themselves.
+Status is now `decided`.
