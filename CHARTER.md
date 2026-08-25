@@ -403,3 +403,20 @@ the school back to a version that was already in force.
 
 The custodian applies step 5, and may reject only on the three grounds in
 section 9. Disliking the outcome is not one of them.
+
+**A completion deadline applies once a proposal is ready.** The
+custodian has 30 calendar days from the point a proposal completes
+every step the amendment procedure above already requires (including,
+for a section 9 change, section 9's own harder path) to either apply
+step 5 or record which of the three grounds in section 9 blocks it.
+Passing that window with neither recorded is not resolution by
+silence: a scheduled, non-discretionary check applies the exact text
+at the specific commit that received the required countersigns, with
+no interpretation and no new judgment, the same way an overdue
+boundary-action deadline already reverts automatically. Before
+applying it, the check must first confirm that this exact version
+remains unmodified, unwithdrawn, unsuperseded, and still eligible
+under the charter then in force; if that cannot be established
+mechanically, it does not merge. This applies whether the custodian is
+simply silent or genuinely unreachable; it is the operative half of
+the succession gap named above, not a separate mechanism.
