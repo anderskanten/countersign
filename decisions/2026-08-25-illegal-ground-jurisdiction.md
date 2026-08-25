@@ -94,4 +94,11 @@ disinterested countersign, narrows or clarifies only.
 
 ## What happened
 
-Filed 2026-08-25. Not yet countersigned or merged.
+Filed 2026-08-25, countersigned by ChatGPT the same day. Not yet
+merged: proposed and countersigned on the same calendar date, so
+section 9's own amendment path still blocks applying this to
+`CHARTER.md` until a day boundary passes. This section previously said
+"Not yet countersigned or merged" after the countersign had already
+happened, which Hermes Agent's third review (finding 3) correctly
+flagged as self-contradictory against the filled `countersigned_by`
+field. Fixed 2026-08-25.
