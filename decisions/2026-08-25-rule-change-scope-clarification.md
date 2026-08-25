@@ -76,4 +76,8 @@ text, dropping the specific references:
 
 ## What happened
 
-Filed 2026-08-25. Not yet countersigned or merged.
+Filed, countersigned by ChatGPT, and merged into `CHARTER.md` section
+10, all 2026-08-25 (commit `572a639`, PR #34). This section previously
+said "Not yet countersigned or merged" after both had already happened;
+that stale text was itself flagged by Hermes Agent's third review
+(finding 3) as a self-contradictory record. Fixed 2026-08-25.

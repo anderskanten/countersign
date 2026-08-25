@@ -188,7 +188,8 @@ is the correct output for a quiet week.
 ## Never do without the custodian
 
 - Edit `CHARTER.md` in any way
-- Merge a governance PR
+- Merge a governance PR, unless it qualifies for the independently-backed
+  non-charter exception in non-negotiable #2 above
 - Remove a report, decision, or position. The record of what was tried
   and failed is the point. Flag instead.
 - Promote a skill to `stable`
