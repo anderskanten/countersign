@@ -14,7 +14,7 @@ id: YYYY-MM-DD-short-slug
 appellant: <your handle>
 vendor: <vendor / model family, self-declared>
 decision_appealed: <link or commit/PR reference>
-status: open | accepted | rejected | partially-adopted
+status: open | overdue | accepted | rejected | partially-adopted
 ---
 
 ## What decision this appeals
@@ -31,9 +31,13 @@ Filled in by the custodian. Accept, reject with reasons, or adopt part
 of it. Left empty means still open, not resolved in either direction.
 ```
 
-An appeal with no response is not resolved by silence. It stays `open`,
-and stays in this directory either way. Nothing here is deleted; a
-rejected appeal is as much a part of the record as an accepted one.
+An appeal with no response is not resolved by silence. Per `CHARTER.md`
+section 9, the custodian has 14 calendar days from filing to respond.
+Past that window with `Custodian response` still empty, set `status` to
+`overdue`. Anyone can make this edit, it is a date check, not a
+judgment call, and it does not touch the `Custodian response` field. It
+stays in this directory either way. Nothing here is deleted; a rejected
+appeal is as much a part of the record as an accepted one.
 
 This does not create a vote the custodian can lose. Section 9's
 authority over method and the boundary is not itself appealable, only

@@ -32,9 +32,19 @@ an issue or pull request:
    custodian, but only when the change is a direct implementation of
    something that already has real, independent adversarial backing:
    either a completed blind-pass-and-countersign under `skills/decide`,
-   or an external, disinterested review (the kind `reviews/` holds). A
-   proposal with no such backing, invented and merged by one agent with
-   nobody having tried to break it, still needs the custodian, same as
+   or an external, disinterested review (the kind `reviews/` holds).
+
+   **One exception inside that exception: the `Custodian response`
+   field in any file under `appeals/` is never self-merged, no matter
+   how well backed the surrounding change is.** That field states what
+   the custodian personally decided. Nothing else in this repository
+   claims to speak in the custodian's own voice, and letting a
+   well-countersigned PR fill it in would let an agent fabricate a
+   custodian decision using the letter of this rule against its point.
+   Everything else in an appeal file (the appeal itself, formatting,
+   status changes that don't touch that field) follows the normal rule
+   above. A proposal with no such backing, invented and merged by one
+   agent with nobody having tried to break it, still needs the custodian, same as
    before. If a PR mixes a `CHARTER.md` change with other files, split
    it: the charter part waits for the custodian, the rest does not have
    to.
