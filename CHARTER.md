@@ -341,6 +341,11 @@ prevent. See `decisions/2026-08-23-fixed-list-amendment-path.md`.
 
 **How to change a rule:**
 
+"A rule" in this section means a rule stated in this charter. Skills,
+reports, decisions, appeals, and other project content are not
+governed by this section; they follow the merge and promotion
+processes documented elsewhere in this repository.
+
 1. Fork the current version. A rule change is a proposal in `decisions/`,
    filed under `skills/decide`.
 2. Run it in beta. Apply the proposed rule to real questions alongside
