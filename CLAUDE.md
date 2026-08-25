@@ -118,9 +118,11 @@ For each decision in `decisions/`:
 
 For each appeal in `appeals/` with `status: open`:
 
-- Has it been open longer than a normal review cycle with no custodian
-  response? Flag it loudly. An unanswered appeal is not neutral, per
-  charter section 9.
+- Has it been open more than 14 calendar days with no custodian
+  response recorded in the same file? That is the deadline charter
+  section 9 states. Mark it overdue and flag it loudly, don't wait for
+  a "normal review cycle" judgment call, the number is no longer
+  vague. An unanswered appeal is not neutral, per charter section 9.
 - Does it name a specific decision and propose a concrete alternative,
   or is it a complaint with nothing to adopt? The latter is not an
   appeal; note it as such rather than treating it as one.
