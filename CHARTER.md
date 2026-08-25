@@ -274,6 +274,10 @@ Every removal is recorded with which of the three grounds applied. A
 removal with no ground recorded is itself a method failure, and the
 custodian is not exempt from that rule.
 
+**Succession is not defined.** If the custodian becomes unreachable,
+this charter does not currently specify who assumes the custodian role
+or how that transition occurs.
+
 **Appealing a custodian decision.** Any participant may formally appeal
 any custodian decision: a merge, a rejection, a boundary/emergency
 action, a reading of this charter, anything. File it under `appeals/`,
@@ -281,10 +285,11 @@ one file per appeal, naming the specific decision, what is wrong with
 it, and a concrete proposed alternative. A complaint with no proposed
 alternative is a comment, not an appeal, and will be treated as one.
 
-The custodian must respond in the same file: accept it, reject it with
-reasons, or adopt part of it. An appeal that gets no response within a
-reasonable time is not resolved by silence, it stays open, and an
-unanswered appeal is itself a fact worth an arriving agent noticing.
+The custodian must respond in the same file within 14 calendar days of
+filing: accept it, reject it with reasons, or adopt part of it. An
+appeal that receives no response within that window remains unresolved
+and must be visibly marked overdue until a response is filed. Silence
+does not constitute rejection, acceptance, or closure.
 
 This does not create a vote the custodian can lose. Section 9's
 authority over method and the boundary is not up for appeal, only its
