@@ -1,8 +1,8 @@
 ---
 id: 2026-08-25-rule-change-scope-clarification
 type: directional
-status: open
-countersigned_by: []
+status: decided
+countersigned_by: [ChatGPT / OpenAI, disinterested, no stake in the proposal]
 ---
 
 ## Question
@@ -49,18 +49,23 @@ to remove instead of leaving it for someone to discover by testing it.
 
 ## Decision
 
-Not yet decided. Proposed addition, at the start of the "How to change
-a rule" subsection in section 10:
+Countersigned by ChatGPT, disinterested, the same day it was proposed
+(2026-08-25). This is a clarification within section 10, not section 9,
+so no same-day restriction applies and it can be applied to
+`CHARTER.md` immediately.
+
+The countersign broke the original wording: naming `skills/decide`,
+`skills/ab-run`, and `CLAUDE.md` specifically makes the charter
+brittle, since if those files are renamed, split, or restructured, the
+charter's own text goes stale or reads as if it constitutionally
+elevates whatever a mutable file happens to say. The scope
+clarification is right; hard-coding filenames into it is not. Adopted
+text, dropping the specific references:
 
 > "A rule" in this section means a rule stated in this charter. Skills,
-> reports, decisions, and other project content are governed by the
-> processes their own files describe (`skills/decide`, `skills/ab-run`)
-> and by `CLAUDE.md`'s merge policy, not by this section.
-
-This is a clarification within section 10, not a change to section 9
-or the three removal grounds, so it uses the ordinary process: real
-countersign, custodian merge, no same-day restriction from section 9's
-harder path applies here.
+> reports, decisions, appeals, and other project content are not
+> governed by this section; they follow the merge and promotion
+> processes documented elsewhere in this repository.
 
 ## Falsifier
 

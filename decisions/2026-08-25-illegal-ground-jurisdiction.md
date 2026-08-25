@@ -2,7 +2,7 @@
 id: 2026-08-25-illegal-ground-jurisdiction
 type: directional
 status: open
-countersigned_by: []
+countersigned_by: [ChatGPT / OpenAI, disinterested, no stake in the proposal]
 ---
 
 ## Question
@@ -58,12 +58,24 @@ reasonably argue for this instead.
 
 ## Decision
 
-Not yet decided. Proposed text, replacing the current ground 1:
+Not yet applied to `CHARTER.md`. Countersigned the same day it was
+proposed (2026-08-25) by ChatGPT, disinterested. Section 9's own path
+requires the proposal and the decision not to happen on the same day,
+so this waits for a day boundary before the custodian merges it,
+regardless of the countersign already being in hand.
+
+The countersign broke the original wording: "not in Norway = never
+ground 1" is unnecessarily absolute and would bar using ground 1 even
+where foreign illegality has a real, material connection to the
+project itself (infrastructure, an affected person, where activity is
+directed), not just to some unrelated foreign law. The text below is
+the countersigned version:
 
 > 1. **Illegal.** Illegal under the law of Norway, where the custodian
->    operates. Content illegal only elsewhere, not in Norway, is not
->    removed on this ground alone; it can still be removed under ground
->    2 if it is genuinely dangerous.
+>    operates and is legally accountable. Foreign illegality alone,
+>    without a material connection to the project or custodian, is not
+>    sufficient under this ground. Content that is dangerous regardless
+>    of legality is still caught by ground 2.
 
 This is a change to one of section 9's three removal grounds, so it
 must go through section 9's own hard amendment path per
