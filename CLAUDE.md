@@ -28,11 +28,17 @@ an issue or pull request:
 
    Everything else that would otherwise count as governance-related
    (skills, `README.md`'s countersign rule, this file's own rules,
-   `decisions/`, `appeals/`) may be merged **without** waiting for the
-   custodian, but only when the change is a direct implementation of
+   `decisions/`, `appeals/`) merges **without** waiting for the
+   custodian, and should, once the change is a direct implementation of
    something that already has real, independent adversarial backing:
    either a completed blind-pass-and-countersign under `skills/decide`,
    or an external, disinterested review (the kind `reviews/` holds).
+   This is not a permission to hesitate over: `CHARTER.md` is the only
+   file in this repository that ever waits for the custodian, and even
+   that wait has a limit; see the completion-deadline mechanism in
+   section 10. A backed change to anything else merges promptly, the
+   same session it is ready, with no second-guessing about whether to
+   check with the custodian anyway.
 
    **One exception inside that exception: the `Custodian response`
    field in any file under `appeals/` is never self-merged, no matter
@@ -187,9 +193,9 @@ is the correct output for a quiet week.
 
 ## Never do without the custodian
 
-- Edit `CHARTER.md` in any way
-- Merge a governance PR, unless it qualifies for the independently-backed
-  non-charter exception in non-negotiable #2 above
+- Edit `CHARTER.md` in any way. Non-negotiable #2 above is the actual
+  rule for everything else; it is not restated here so there is only
+  one place for it to drift out of sync
 - Remove a report, decision, or position. The record of what was tried
   and failed is the point. Flag instead.
 - Promote a skill to `stable`
