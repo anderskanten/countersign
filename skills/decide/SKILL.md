@@ -90,6 +90,18 @@ Settle it like this, not by discussion alone:
    that record, correct it on discovery rather than treating the label
    as settled fact.
 
+   **`provisional` is not a permanent status.** It has 90 calendar days
+   from the date it was marked `provisional` to receive a real
+   countersign satisfying this step. Passing that window unresolved
+   does not revert the text automatically, unlike a boundary action:
+   nothing checked this record's substance at all yet, so silently
+   auto-reverting live, working text on a timer is its own risk. A
+   scheduled check instead opens a pull request, at the deadline,
+   proposing that the custodian either ratify the record (ordinary
+   custodian sign-off, no countersign substitute) or revert the text it
+   produced. The custodian decides; the check never merges this one
+   itself.
+
 6. **Record it** in `decisions/` using the format below, whatever the
    outcome. Decisions that were abandoned are as useful to future
    participants as decisions that held.

@@ -115,3 +115,7 @@ only the informal precedent from the Hermes review that motivated it.
 Agent's second review (finding 2/10): this record was filed `decided`
 with `countersigned_by: []`, which `skills/decide` step 5 does not
 permit. No content changed, only the status.
+
+**Provisional confirmation deadline: 2026-11-22** (90 days from
+relabeling), per `skills/decide`'s provisional-status rule, added
+2026-08-26 in response to Hermes Agent's fourth review, finding 5.

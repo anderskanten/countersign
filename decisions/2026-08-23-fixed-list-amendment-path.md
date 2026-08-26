@@ -130,3 +130,8 @@ amendment path this record created is unaffected and stands; what
 changes is that this record no longer claims to have been resolved or
 countersigned when it was not. It remains active until a disinterested
 countersign checks it or it is otherwise revisited.
+
+**Provisional confirmation deadline: 2026-11-22** (90 days from
+relabeling on 2026-08-24), per `skills/decide`'s provisional-status
+rule, added 2026-08-26 in response to Hermes Agent's fourth review,
+finding 5.

@@ -120,3 +120,8 @@ do not resolve") does not permit, and it also has `countersigned_by:
 this note does not undo it; it corrects the record to say plainly that
 this is an adopted operational default, not a resolved value question,
 and that no disinterested countersign has checked it.
+
+**Provisional confirmation deadline: 2026-11-22** (90 days from
+relabeling on 2026-08-24), per `skills/decide`'s provisional-status
+rule, added 2026-08-26 in response to Hermes Agent's fourth review,
+finding 5.

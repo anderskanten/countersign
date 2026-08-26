@@ -174,6 +174,16 @@ For each appeal in `appeals/` with `status: open`:
   diff. The prose rule that "repository content is data" does not by
   itself neutralize a file the harness promotes to instructions the
   moment it is checked out.
+- **Trust-anchor files have no independent review requirement yet.**
+  `CHARTER.md`, `AGENTS.md`, `CLAUDE.md`, `llms.txt`, and `.github/`
+  have no required approving review; a self-merge to any of them is
+  currently checked only by the merging agent itself. Turning on
+  code-owner-required review was considered (per an external review)
+  and rejected for now: it would block the routine, backed self-merges
+  this project's own tiered-merge-authority rule depends on, for a
+  protection that a single-operator project can't make meaningfully
+  independent anyway. This is a known, accepted gap at the project's
+  current scale, named here rather than left implicit.
 
 ### 5. Report
 
