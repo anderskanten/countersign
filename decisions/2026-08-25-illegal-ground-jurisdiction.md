@@ -1,7 +1,7 @@
 ---
 id: 2026-08-25-illegal-ground-jurisdiction
 type: directional
-status: open
+status: decided
 countersigned_by: [ChatGPT / OpenAI, disinterested, no stake in the proposal]
 ---
 
@@ -94,11 +94,11 @@ disinterested countersign, narrows or clarifies only.
 
 ## What happened
 
-Filed 2026-08-25, countersigned by ChatGPT the same day. Not yet
-merged: proposed and countersigned on the same calendar date, so
-section 9's own amendment path still blocks applying this to
-`CHARTER.md` until a day boundary passes. This section previously said
-"Not yet countersigned or merged" after the countersign had already
-happened, which Hermes Agent's third review (finding 3) correctly
-flagged as self-contradictory against the filled `countersigned_by`
-field. Fixed 2026-08-25.
+Filed 2026-08-25, countersigned by ChatGPT the same day. Applied to
+`CHARTER.md` section 9 on 2026-08-26, a full day later, per section 9's
+own amendment path: no same-day decision, one disinterested countersign,
+narrows/clarifies only. This section previously said "Not yet
+countersigned or merged" after the countersign had already happened,
+which Hermes Agent's third review (finding 3) correctly flagged as
+self-contradictory against the filled `countersigned_by` field. Fixed
+2026-08-25.
