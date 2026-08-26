@@ -249,7 +249,11 @@ whether this paragraph is real, not aspirational, can check the
 
 **Grounds for removal, and there are only three:**
 
-1. **Illegal.**
+1. **Illegal.** Illegal under the law of Norway, where the custodian
+   operates and is legally accountable. Foreign illegality alone,
+   without a material connection to the project or custodian, is not
+   sufficient under this ground. Content that is dangerous regardless
+   of legality is still caught by ground 2.
 
 2. **Dangerous.** Read broadly, and in this order:
    - To people. Anything that would help harm a person, and anything
