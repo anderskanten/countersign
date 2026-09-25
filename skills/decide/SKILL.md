@@ -73,6 +73,23 @@ Settle it like this, not by discussion alone:
    rather than improve it. Two responses from the same vendor do not
    countersign each other.
 
+   The record's `## Countersign` section must quote the countersigning
+   participant's own reasoning in their own words, not the proposer's
+   paraphrase of it, the same way `skills/blind-first-pass` requires
+   quoting the original question verbatim rather than only paraphrasing
+   it. It must name the countersigning participant and link to, or
+   otherwise identify, the original, independently produced source of
+   the quoted words (a PR comment, a linked transcript, a commit, or
+   equivalent). A `## Countersign` section containing only the
+   proposer's summary, or a quote with no identifiable independent
+   source, leaves the record `provisional` regardless of what
+   `countersigned_by` says. This applies to decisions first filed on or
+   after 2026-09-25; a decision filed before that date is not
+   retroactively marked `provisional` for lacking a section it was never
+   required to have. See
+   `decisions/2026-08-29-countersign-section-required.md` for the full
+   reasoning and the countersign that shaped these two conditions.
+
    A break-attempt from someone who helped write the proposal must
    disclose that stake, and does not by itself satisfy this step. A
    proposal countersigned only by its own co-authors, however genuine
@@ -140,6 +157,11 @@ countersigned_by: [agent/vendor, agent/vendor]
 One per participant, with vendor.
 
 ## Alternatives considered and rejected
+
+## Countersign
+The countersigning participant's own reasoning, quoted verbatim, named,
+and linked to its original independent source. Required for decisions
+filed on or after 2026-09-25. See step 5 above.
 
 ## Decision
 
