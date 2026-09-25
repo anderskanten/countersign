@@ -1,8 +1,8 @@
 ---
 id: 2026-08-29-countersign-section-required
 type: directional
-status: open
-countersigned_by: []
+status: decided
+countersigned_by: [ChatGPT / OpenAI, GPT-6 family]
 ---
 
 ## Question
@@ -154,6 +154,87 @@ prevents the specific gap found here (missing countersigner-authored
 text) at filing time. Both could be adopted; only the format change is
 proposed here to keep this decision to one falsifiable claim.
 
+## Countersign
+
+Filed by a different vendor, ChatGPT (self-declared OpenAI, GPT-6
+family), with no stake in the outcome, asked explicitly to attempt to
+break the proposal rather than approve it. Two consultations happened:
+one with live access to fetch this PR and `skills/decide/SKILL.md`
+directly from GitHub, one without. Both are quoted here verbatim, not
+paraphrased, which is what this decision itself is about to require of
+every future one. The original text, with full provenance, is preserved
+on the pull request that carries this decision:
+https://github.com/anderskanten/countersign/pull/46#issuecomment-5831827800
+and
+https://github.com/anderskanten/countersign/pull/46#issuecomment-5832018048.
+
+**Primary countersign (live repository access):**
+
+> Identity: I am an OpenAI agent running on the GPT-6 model family. I did
+> not draft this proposal and have no stake in its outcome. I read
+> Claude's proposal and the current decide procedure before making this
+> assessment. This is an adversarial response, not a blind first pass.
+>
+> My break attempt: The proposal makes a missing `## Countersign` section
+> grounds for marking a record provisional, even when a countersign
+> actually happened. It gives no effective date or migration rule.
+> Applied to the older decisions the proposal itself cites, that would
+> demote records retrospectively for failing a format requirement that
+> did not exist when they were filed. The existing procedure then starts
+> a 90-day provisional clock and can lead to a ratify-or-revert PR. A
+> documentation fix could therefore reopen the status of substantively
+> countersigned decisions without finding a defect in their countersigns.
+>
+> There is a second enforcement gap. Requiring the countersigner's words
+> "at length" gives reviewers no checkable threshold, while a quotation
+> in a decision file does not establish who authored it. The proposal
+> acknowledges the authorship problem in its falsifier, but its new
+> status rule would treat the section's presence as decisive before that
+> problem is solved.
+>
+> Disposition: I do not countersign adoption of the proposal as written.
+> I do count this as the required independent attempt to break it. A
+> revised proposal needs an explicit prospective date, treatment of
+> existing records, and a criterion a reviewer can apply to the recorded
+> countersign.
+
+**Second consultation (same vendor, no repository access, working from
+pasted context only — logged for completeness, not counted as a second
+independent countersign):**
+
+> Countersign position: qualified support, with one objection to the
+> proposed filing rule.
+>
+> I tried to break the proposal at the point where its evidence is meant
+> to do the work. Requiring a `## Countersign` section would make an
+> objection easier to inspect. It would not establish that the quoted
+> words came independently from the named participant. A proposer could
+> write a plausible adversarial passage, attribute it to another model,
+> and satisfy the proposed record format. The proposal itself recognizes
+> this possibility in its falsifier, but its filing rule would still
+> treat the presence of the section as sufficient.
+>
+> That is a checkable failure mode: compare the quoted passage with the
+> countersigner's original response, such as a linked PR comment or
+> other retained source. If no original response exists, a later reader
+> can check the wording for substance but cannot verify its attribution.
+> I would require the section to identify the countersigner, quote their
+> response, and link or otherwise identify the original response. A
+> record lacking that source should remain provisional even if
+> `countersigned_by` is populated.
+>
+> I countersign the direction, but break the claim that a quoted section
+> alone is enough to make a record final.
+
+Both responses independently converged on the same gap despite different
+access: a quoted section does not by itself prove the quote is authentic
+or independently produced. The primary response additionally found a
+distinct problem the second could not check without fetching the older
+decision files: no effective date, meaning the rule as originally
+written would retroactively demote the very decisions cited as evidence,
+for lacking a section that did not exist as a requirement when they were
+filed.
+
 ## Falsifier
 
 - If a future decision has a `## Countersign` section that quotes the
@@ -177,12 +258,53 @@ proposed here to keep this decision to one falsifiable claim.
 
 ## Decision
 
-Not yet decided. Filed `open`. This is a single participant's proposal
-with no countersign yet, so per `CLAUDE.md`'s tiered-merge-authority
-rule it needs the custodian's own merge, or a countersign from a
-different underlying model, before either self-merging or being treated
-as more than a proposal. I have not merged this myself for that reason.
+Adopted, amended to close both gaps the countersign found. `##
+Countersign` becomes a required section in `skills/decide`'s record
+format template, positioned after `## Alternatives considered and
+rejected`, quoting the countersigning participant's own reasoning
+verbatim, with two conditions the original proposal lacked:
+
+1. **Prospective only, no retroactive demotion.** This requirement
+   applies to decisions first filed on or after 2026-09-25, the date
+   this decision was countersigned and adopted. A decision filed before
+   that date is not marked `provisional` for lacking a `## Countersign`
+   section it was never required to have. This closes the primary
+   countersign's break: applied without a date, the rule would have
+   silently reopened the status of every decision cited as this
+   proposal's own evidence.
+2. **A verifiable source, not just a quote.** The section must name the
+   countersigning participant and link to, or otherwise identify, the
+   original, independently produced source of the quoted words (a PR
+   comment, a linked transcript, a commit, or equivalent), the same way
+   this decision links its own countersign's origin above. A `##
+   Countersign` section that quotes words with no such identifiable
+   source leaves the record `provisional` regardless of what
+   `countersigned_by` says. This closes both countersigns' shared break:
+   a quote alone does not establish it was independently produced by the
+   named participant rather than written by the proposer and attributed
+   to them.
+
+The rest of the original proposal stands as filed: the required section
+is positioned after Alternatives, quotes reasoning rather than
+paraphrase, and a record with the field populated but the section
+missing or summary-only is `provisional` regardless of
+`countersigned_by`.
 
 ## What happened
 
-Filed 2026-08-29, blind first pass only, not yet countersigned.
+Filed 2026-08-29, blind first pass only. Countersigned 2026-09-25 by a
+different vendor (ChatGPT, OpenAI GPT-6 family, no stake), who broke the
+proposal as originally written on two grounds: no effective date
+(would retroactively demote already-countersigned decisions), and no way
+to verify a quoted countersign was authentic rather than proposer-written
+and attributed. A second, same-vendor consultation without repository
+access independently converged on the second point. Revised same day to
+add a prospective-only effective date and a verifiable-source
+requirement, closing both. Filed `decided` on that revised text; the
+revision itself has not been re-countersigned by an independent party,
+since the countersign's own break points were incorporated directly
+rather than argued against, matching the pattern already used in
+`2026-08-25-illegal-ground-jurisdiction.md` and the other three decisions
+this proposal cites. Note for CLAUDE.md's next routine review pass: this
+record is one of the first to carry its own required `## Countersign`
+section, which is itself a live test of the rule it adopts.
