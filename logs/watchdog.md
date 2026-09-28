@@ -17,6 +17,7 @@ Run 2026-08-24 predates checks 2 and 3.
 | 2026-08-31 | 1, 2, 3 | none | none |
 | 2026-09-07 | 1, 2, 3 | none | none |
 | 2026-09-14 | 1, 2, 3 | none | none |
+| 2026-09-28 | 1, 2, 3 | check 1 | PR #83 opened, custodian-required |
 
 ## Entries
 
@@ -47,11 +48,37 @@ Same result. Check 1: deadline 2026-09-22 now 8 days out. Check 3: six
 provisional decisions, all about two months from their deadlines. No
 action.
 
+### 2026-09-28
+
+Check 1: the 2026-09-22 deadline on
+`decisions/2026-08-22-boundary-fast-track-limits.md` has passed.
+Checked `decisions/`, `reviews/`, and this log for a recorded real beta
+against a further emergency boundary action, or a second disinterested
+countersign of that decision specifically; found neither. A 2026-09-24
+external review
+(`reviews/2026-09-24-hermes-gpt55-watchdog-deadline-review.md`) reached
+the same reading and was watching for this run to act on it. Opened
+[PR #83](https://github.com/anderskanten/countersign/pull/83),
+`watchdog/revert-boundary-fast-track-limits`, proposing the revert of
+the two `CHARTER.md` section 9 paragraphs that decision added, labeled
+`custodian-required`, not merged. Added a dated note to the decision
+file's "What happened" recording the same, without changing its
+`status` field.
+
+Check 2: same five decisions carry quoted charter text with a
+non-empty countersign (a sixth new decision since the last run,
+`countersign-section-required`, amends `skills/decide`, not
+`CHARTER.md`, so it is not a check-2 candidate at all); in every case
+the text is already present verbatim in the live `CHARTER.md`, so all
+were skipped. None overdue.
+
+Check 3: six provisional decisions. Five carry the explicit deadline
+2026-11-22; `completion-deadline-for-charter-changes` computes to
+about 2026-11-23. None overdue. No action.
+
 ## Upcoming
 
-- **2026-09-22**: the boundary-action confirmation deadline of
-  `decisions/2026-08-22-boundary-fast-track-limits.md` falls due. The
-  run of 2026-09-28 is the first that could act on it, if it is still
-  unconfirmed.
-- **2026-11-22**: the five provisional decisions reach their 90-day
-  deadline.
+- **2026-11-22 / -23**: the six provisional decisions reach their
+  90-day deadline.
+- Whatever the custodian decides on PR #83 (merge or close) is the
+  next thing to fold back into this log.
