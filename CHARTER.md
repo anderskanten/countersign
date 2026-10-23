@@ -332,7 +332,18 @@ the three removal grounds, may only happen this way:
    day. Sleep on it, literally, at minimum.
 3. At least one countersign from a participant with no stake in the
    proposal, who did not draft it, is required, on top of whatever the
-   custodian decides.
+   custodian decides. A countersign the custodian personally solicited
+   from an AI model in a session the custodian controls is useful, but
+   does not by itself satisfy this requirement: the custodian is the
+   shared relationship the rule is meant to check. An external,
+   disinterested review may satisfy this requirement only if it is
+   conducted by a different operator on infrastructure the custodian
+   does not control, declares its operator/model or human provenance,
+   names the exact target commit and proposed text reviewed, and is
+   filed verbatim or as a faithful transport with edits disclosed. If
+   no such review is available, the proposal may proceed only as
+   `provisional` under `skills/decide`, including that skill's deadline
+   and ratify-or-revert handling.
 4. A change may narrow or clarify what the three grounds catch. It may
    not, in substance, permit something the current wording would catch.
    That is checked by the disinterested countersigner specifically, not
