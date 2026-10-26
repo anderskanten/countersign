@@ -19,6 +19,7 @@ Run 2026-08-24 predates checks 2 and 3.
 | 2026-09-14 | 1, 2, 3 | none | none |
 | 2026-09-28 | 1, 2, 3 | check 1 | PR #83 opened, custodian-required |
 | 2026-10-19 | 1, 2, 3 | none (check 2 courtesy window) | courtesy email sent |
+| 2026-10-26 | 1, 2, 3 | check 2 | merged PR #87 (automatic completion-deadline merge) |
 
 ## Entries
 
@@ -110,14 +111,43 @@ explicit deadline 2026-11-22, still over a month out. The sixth,
 need action under this check even once its deadline passes. None
 overdue. No action.
 
+### 2026-10-26
+
+Check 1: PR #83 (opened 2026-09-28, proposing the revert of the overdue
+`boundary-fast-track-limits` containment) is still open, still draft,
+not merged or closed. No new boundary/emergency deadline found in any
+other decision file. No new action.
+
+Check 2: re-read the live `CHARTER.md` section 10 completion-deadline
+paragraph (unchanged since last run). Walked every decision file again
+for a `## Decision` section quoting proposed `CHARTER.md` text with a
+non-empty `countersigned_by`. Same six candidates as 2026-10-19; five
+already have their quoted text present verbatim in the live
+`CHARTER.md` and were skipped. The sixth,
+`decisions/2026-08-25-external-review-as-disinterested-countersign.md`,
+had its countersign recorded 2026-09-24, now 32 calendar days before
+today, past the 30-day threshold. Re-verified before acting: the
+decision is not abandoned or superseded, nothing later conflicts with
+it, no rejection ground is recorded against it, and `CHARTER.md`
+section 10 has not changed since PR #87's base commit. PR #87 carried
+the exact countersigned text, unmodified since 2026-09-30. Merged it
+(commit `b44eafc`), and added a dated note to the decision file's
+"What happened" section recording the merge, without otherwise
+changing its text. This is the first time this mechanism has actually
+executed a merge rather than only tracking a window.
+
+Check 3: six provisional decisions. Five
+(`appeal-mechanism`, `decide-ab-run-hardening`,
+`remaining-hermes-findings`, `tiered-merge-authority`,
+`fixed-list-amendment-path`) carry the explicit deadline 2026-11-22,
+still about four weeks out. The sixth,
+`completion-deadline-for-charter-changes`, still has a non-empty
+`countersigned_by` (ChatGPT, disclosed partial stake), so it needs no
+action under this check regardless of its own deadline. None overdue.
+No action.
+
 ## Upcoming
 
-- **~2026-10-24**: `external-review-as-disinterested-countersign`
-  passes 30 days since its countersign (2026-09-24). If PR #87 is
-  still open then, the next run should treat it as an
-  automatic-completion-deadline candidate under `CHARTER.md` section
-  10 check 2, re-verify eligibility mechanically, and apply it if
-  clean.
 - **2026-11-22 / -23**: the six provisional decisions reach their
   90-day deadline.
 - Whatever the custodian decides on PR #83 (merge or close) is the
