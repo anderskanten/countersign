@@ -202,3 +202,16 @@ moves status to `decided` for this decision record itself. The
 `CHARTER.md` text this decision proposes still needs the custodian
 before it takes effect; that is filed as a separate pull request,
 labeled `custodian-required`, per `CLAUDE.md`'s non-negotiable #2.
+
+**Applied to `CHARTER.md` on 2026-10-26 by the scheduled deadline
+watchdog, under `CHARTER.md` section 10's completion-deadline
+mechanism** (`decisions/2026-08-25-completion-deadline-for-charter-changes.md`):
+30 calendar days had passed since the countersign was recorded
+(2026-09-24), with neither step 5 applied nor a rejection ground
+recorded, and PR #87 had carried the exact countersigned text,
+unmodified, since 2026-09-30. The watchdog re-verified that
+`CHARTER.md` section 10 had not changed since PR #87's base commit,
+found nothing superseding or conflicting with this record, and merged
+the pull request mechanically, no new text and no interpretation
+beyond what was already countersigned. This is the one case
+`CHARTER.md` section 10 authorizes without live custodian sign-off.
