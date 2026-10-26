@@ -172,3 +172,22 @@ It cannot merge anything and cannot edit `CHARTER.md` directly; the
 custodian still has to act on what it opens. This closes the gap
 between what the charter now says happens and what actually happens
 without a human remembering to check.
+
+**2026-09-28, watchdog run.** The 2026-09-22 confirmation deadline has
+passed. No real beta against a further emergency boundary action and no
+second disinterested countersign were found anywhere in the repository
+(decisions/, reviews/, logs/watchdog.md all checked). The countersign
+already on file (Claude + Hermes Agent) is the one this decision itself
+treats as satisfying the *original no-laundering rule's* missing
+countersign, not a second, independent confirmation of *this* decision's
+own containment paragraph, which is what its own deadline required.
+Per the deadline clause above and per this decision's own falsifier
+("if no second real test of this containment process occurs before
+2026-09-22, this decision's own status is inconclusive by its own terms,
+not held, and reverts"), the watchdog opened a pull request
+(`watchdog/revert-boundary-fast-track-limits`) proposing the revert: the
+two paragraphs this decision added to charter section 9 removed,
+returning it to its wording before commit `9fbc416`/`24744e7` (PR #9).
+The watchdog did not merge this itself; the custodian decides. Status
+here is left as `decided` pending that decision, since changing it is a
+judgment call for the custodian, not a mechanical one.
