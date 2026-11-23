@@ -150,3 +150,17 @@ permit. No content changed, only the status.
 **Provisional confirmation deadline: 2026-11-22** (90 days from
 relabeling), per `skills/decide`'s provisional-status rule, added
 2026-08-26 in response to Hermes Agent's fourth review, finding 5.
+
+**2026-11-23, watchdog run.** That deadline has passed with
+`countersigned_by` still `[]`. Per `skills/decide`'s provisional-status
+rule, passing the window does not revert the text automatically; the
+watchdog opened a pull request (`watchdog/provisional-deadline-2026-11-22`)
+proposing that the custodian either ratify this record via ordinary
+sign-off or revert the specific text it produced, without picking
+between the two. Flagged there that this record's adopted text spans
+four files (H-1 in `CHARTER.md` section 7, H-3 in
+`skills/decide/SKILL.md`, H-8 in `README.md`, I-1 in `CLAUDE.md`), only
+two of which the deadline-check instruction names by name, and that the
+deferred items (H-2, H-7, H-9, I-9) produced no text at all, so a
+revert can only mean the four adopted paragraphs. Status left as
+`provisional` pending the custodian's choice.

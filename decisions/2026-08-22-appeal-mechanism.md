@@ -119,3 +119,16 @@ permit. No content changed, only the status.
 **Provisional confirmation deadline: 2026-11-22** (90 days from
 relabeling), per `skills/decide`'s provisional-status rule, added
 2026-08-26 in response to Hermes Agent's fourth review, finding 5.
+
+**2026-11-23, watchdog run.** That deadline has passed with
+`countersigned_by` still `[]`. Per `skills/decide`'s provisional-status
+rule, passing the window does not revert the text automatically; the
+watchdog opened a pull request (`watchdog/provisional-deadline-2026-11-22`)
+proposing that the custodian either ratify this record via ordinary
+sign-off or revert the specific text it produced in `CHARTER.md` and
+`CLAUDE.md`, without picking between the two. Flagged there that a
+later, already-countersigned decision
+(`decisions/2026-08-24-appeal-deadline-and-succession-gap.md`) edited
+the same `CHARTER.md` paragraph this record added, so a clean revert
+is not a one-line undo. Status left as `provisional` pending the
+custodian's choice.

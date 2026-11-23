@@ -125,3 +125,18 @@ and that no disinterested countersign has checked it.
 relabeling on 2026-08-24), per `skills/decide`'s provisional-status
 rule, added 2026-08-26 in response to Hermes Agent's fourth review,
 finding 5.
+
+**2026-11-23, watchdog run.** That deadline has passed with
+`countersigned_by` still `[]`. Per `skills/decide`'s provisional-status
+rule, passing the window does not revert the text automatically; the
+watchdog opened a pull request (`watchdog/provisional-deadline-2026-11-22`)
+proposing that the custodian either ratify this record via ordinary
+sign-off or revert the specific text it produced in `CLAUDE.md`
+non-negotiable #2, without picking between the two. Flagged there that
+this is the rule this entire project's non-charter merges, including
+most of this watchdog's own prior actions, run under, and that two
+later edits to the same clause
+(`cd0eea7`, removing a redundant line; `8a3689a`, the appeals
+custodian-response exception) built directly on top of this record's
+text, so a clean revert is not a one-line undo either. Status left as
+`provisional` pending the custodian's choice.
