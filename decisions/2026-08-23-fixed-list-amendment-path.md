@@ -135,3 +135,18 @@ countersign checks it or it is otherwise revisited.
 relabeling on 2026-08-24), per `skills/decide`'s provisional-status
 rule, added 2026-08-26 in response to Hermes Agent's fourth review,
 finding 5.
+
+**2026-11-23, watchdog run.** That deadline has passed with
+`countersigned_by` still `[]`. Per `skills/decide`'s provisional-status
+rule, passing the window does not revert the text automatically; the
+watchdog opened a pull request (`watchdog/provisional-deadline-2026-11-22`)
+proposing that the custodian either ratify this record via ordinary
+sign-off or revert the specific text it produced in `CHARTER.md`
+section 10, without picking between the two. Flagged there that
+`decisions/2026-08-25-external-review-as-disinterested-countersign.md`
+later amended this exact paragraph (merged 2026-10-26 under the
+completion-deadline mechanism, PR #87) to add the external-review
+clause to this record's requirement 3, so reverting this record would
+also remove text a separate, already-executed, properly countersigned
+decision put there. Status left as `provisional` pending the
+custodian's choice.

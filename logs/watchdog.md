@@ -20,6 +20,7 @@ Run 2026-08-24 predates checks 2 and 3.
 | 2026-09-28 | 1, 2, 3 | check 1 | PR #83 opened, custodian-required |
 | 2026-10-19 | 1, 2, 3 | none (check 2 courtesy window) | courtesy email sent |
 | 2026-10-26 | 1, 2, 3 | check 2 | merged PR #87 (automatic completion-deadline merge) |
+| 2026-11-23 | 1, 2, 3 | check 3 | PR opened (`watchdog/provisional-deadline-2026-11-22`), custodian-required |
 
 ## Entries
 
@@ -146,9 +147,51 @@ still about four weeks out. The sixth,
 action under this check regardless of its own deadline. None overdue.
 No action.
 
+### 2026-11-23
+
+Check 1: PR #83 (opened 2026-09-28, proposing the revert of the overdue
+`boundary-fast-track-limits` containment) is still open, still draft,
+not merged or closed. No new boundary/emergency deadline found in any
+other decision file. No new action.
+
+Check 2: re-read the live `CHARTER.md` section 10 completion-deadline
+paragraph (unchanged since last run). Walked every decision file again
+for a `## Decision` section quoting proposed `CHARTER.md` text with a
+non-empty `countersigned_by`. The one candidate that was still
+outstanding last run, `external-review-as-disinterested-countersign`,
+was merged 2026-10-26 (PR #87, commit `b44eafc`) and is no longer a
+candidate. No new decision files have been added since, so no new
+quoted-text candidates exist. No action.
+
+Check 3: of the six provisional decisions tracked since 2026-08-31,
+five (`appeal-mechanism`, `decide-ab-run-hardening`,
+`remaining-hermes-findings`, `tiered-merge-authority`,
+`fixed-list-amendment-path`) carry the explicit deadline 2026-11-22,
+which has now passed; `countersigned_by` is still `[]` in all five.
+The sixth, `completion-deadline-for-charter-changes`, still carries a
+non-empty `countersigned_by` (ChatGPT, disclosed partial stake), so it
+needs no action under this check regardless of its own deadline having
+also arrived. Opened one combined pull request
+(`watchdog/provisional-deadline-2026-11-22`) covering the five overdue
+decisions, since they share the same deadline and the same 2026-08-24
+relabeling event. For each, it lays out the two outcomes
+`skills/decide` requires the custodian choose between (ratify as-is, or
+revert the text produced) with the actual diffs for both, and picks
+neither. Added a dated note to each of the five decision files'
+"What happened" section recording the same, without changing any
+`status` field. Flagged in the PR that a clean revert is not a
+one-line undo for three of the five: `appeal-mechanism` and
+`tiered-merge-authority` have both had later, already-countersigned or
+already-ratified edits layered onto the same text, and
+`fixed-list-amendment-path` is the paragraph that PR #87's merge
+(check 2, 2026-10-26) already extended, so reverting it would also
+undo that separate, properly-executed completion-deadline merge.
+Labeled `custodian-required`. Did not merge.
+
 ## Upcoming
 
-- **2026-11-22 / -23**: the six provisional decisions reach their
-  90-day deadline.
 - Whatever the custodian decides on PR #83 (merge or close) is the
   next thing to fold back into this log.
+- Whatever the custodian decides on the five provisional decisions in
+  the 2026-11-23 PR (ratify or revert, per-decision) is the next thing
+  to fold back into this log after that.
